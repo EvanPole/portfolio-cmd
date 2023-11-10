@@ -1,0 +1,63 @@
+:root {}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: black;
+}
+
+.macoswindow {
+    background: black;
+    border: 1px solid grey;
+    height: 400px;
+    width: 700px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.macoswindow .header-w {
+    background: #e5e5e5;
+    height: 25px;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.macoswindow .header-w .button-container {
+    display: flex;
+    margin-left: 2px;
+}
+
+.macoswindow .header-w .button-container .button {
+    border-radius: 7.5px;
+    width: 12.5px;
+    height: 12.5px;
+    display: block;
+    margin-right: 4.5px;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+
+.macoswindow .text{
+    margin: 5px;
+}
+
+.macoswindow p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.macoswindow p input {
+    background: #ffffff09;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.macoswindow p input:focus {
+    outline: none;
+    color: white;
+}
